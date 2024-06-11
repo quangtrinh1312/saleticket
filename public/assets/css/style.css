@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/*footer*/
+    .info {
+        width: 40%;
+        float: left;
+        margin: 2% 5%;
+        padding-top: 2%;
+    }
+    .list-info {
+        list-style: none;
+        padding: 1%;
+    }
+    .help {
+        float: right;
+        width: 60%;
+        margin: 2% 5%;
+        padding-top: 2%;
+    }
+/*footer*/
+/*nav bar*/
+    /*danh mục */
+    .dm-sp {
+        box-shadow: 0 0px 5px rgba(105, 105, 105, 0.455);
+    }
+    .nav-link {
+        color: white;
+    }
+    .dm-sp li :hover {
+        background-color: white;
+        color: black;
+    }
+    /*danh mục */
+/*nav bar*/
+/*body*/
+    .main-index {
+        margin-top: 2%;
+        display: grid;
+        height: auto;
+        width: 100%;
+        padding: 2% 1%;
+        background-color: rgba(202, 202, 202, 0.3);
+    }
+    /*top body*/
+        .breadcrumb ol{
+            box-shadow: 0 2px 15px rgba(105, 105, 105, 0.455);
+        }
+    /*top body*/
+    /*left body*/
+        .content-left {
+            color: rgb(83, 83, 83);
+        }
+        .left-index {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* display: block; */
+            background-color: rgba(255, 255, 255, 0.519);
+            margin-left: 1%;
+            border: 1px solid rgba(128, 128, 128, 0.267);
+            box-shadow: 0 2px 15px rgba(105, 105, 105, 0.455);
+            border-radius: 10px;
+        }
+        .sort-link {
+            color: rgb(85, 85, 85);
+        }
+        .sort :hover {
+            text-decoration: none;
+        }
+        .top-filter {
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            border: 1px solid rgb(213, 213, 213);
+            margin: 10% 0%;
+            padding: 5% 5%;
+            box-shadow: 0 2px 10px rgba(105, 105, 105, 0.455);
+        }
+    /*left body*/
+
+/*body*/
+
+.font-link{
+    color: black;
+    text-decoration: none !important;
+}
+.font-information{
+   font-size: 18px;
+}
+
+/* html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
